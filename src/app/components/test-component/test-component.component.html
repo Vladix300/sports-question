@@ -1,0 +1,11 @@
+<div *ngIf="inputData.length === 0" id="noData"> NO DATA</div>
+
+<div *ngIf="inputData.length !== 0" id="dataList"> 
+
+    <div *ngFor="let input of inputData" 
+         [ngClass]="{'red' : input.length%2 !== 0, 'green' : input.length%2 === 0}"> 
+        {{input}} 
+
+    </div>
+
+</div>

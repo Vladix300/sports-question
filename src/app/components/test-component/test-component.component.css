@@ -1,0 +1,33 @@
+#noData {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;
+    border-radius: 8px;
+    margin: auto;
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    height: 30px;
+    font-size: 1.2rem;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+#dataList {
+    font-weight: 600;   
+    font-size: 1.2rem;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px
+    
+}

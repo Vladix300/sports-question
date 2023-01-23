@@ -1,0 +1,16 @@
+<h3>{{parentQuestion}}</h3>
+
+<form>
+
+        <span> <input type="radio" #yes value="oui" name="player"/> {{parentYesAnswer}}</span>
+
+        <span> <input type="radio" #no value="non" name="player"/> {{parentNoAnswer}} </span>
+
+
+    <div id='btnContainer'>
+        <button id='btn' type="submit"  (click)="vote($event, yes.checked ? true : false)" >
+            ENVOYER
+        </button>
+    </div>
+
+</form>

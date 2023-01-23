@@ -1,0 +1,11 @@
+
+    <div id='inp-btnContainer'>
+        <input id='inp' type="text" placeholder="Ecrivez votre pseudo" #name />
+        <button id='btn' type="button" (click)="addNew(name.value); name.value = '' " >
+            OK
+        </button>
+    </div>
+
+<test-component [inputData] = "joueurs"> 
+
+</test-component>

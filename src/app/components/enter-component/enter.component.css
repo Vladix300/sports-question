@@ -1,0 +1,25 @@
+#inp-btnContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    gap: 60px;
+}
+
+#btn {
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+#btn:hover {
+    cursor: pointer;
+}
+
+#inp {
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+}
